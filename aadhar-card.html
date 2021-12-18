@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Aadhar Card</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+
+      <div class="container">
+         <div class="row">
+            <div class="col-4">
+               <div class="sidebar">
+                  <h3><i class="fas fa-align-justify"></i> Material Dashboard 2</h3>
+                  
+                  <a href="index.html" class="nav-item ">
+                     <i class="far fa-images"></i> Photo
+                  </a>
+                  <a href="aadhar-card.html" class="nav-item active">
+                     <i class="far fa-images"></i> Aadhar Card
+                  </a>
+                  <a href="pan-card.html" class="nav-item">
+                     <i class="far fa-images"></i> PAN Card
+                  </a>
+                  <a href="documents.html" class="nav-item">
+                     <i class="far fa-images"></i> Documents
+                  </a>
+                  <a href="#" class="nav-item bottom-btn">Upgrade to pro</a>
+               </div>
+            </div>
+            <div class="col-8 main">
+               <div class="row">
+                  <div class="col-6">
+                     <div class="btn-box">Upload Front side</div>
+                     <div class="file-container">
+                        <div class="wrapper front">
+                           <div class="image">
+                              <img src="" alt="" id="img1">
+                           </div>
+                           <div class="content">
+                              <div class="icon">
+                                 <i class="fas fa-cloud-upload-alt"></i>
+                              </div>
+                              <div class="text">
+                                 No file chosen, yet!
+                              </div>
+                           </div>
+                           <div id="cancel-btn" class="cancel-btn">
+                              <i class="fas fa-times"></i>
+                           </div>
+                           <div class="file-name file-name-front">
+                              File name here
+                           </div>
+                        </div>
+                        <button onclick="defaultBtnActive('img1')" id="custom-btn" class="cm-btn">Choose a file</button>
+                        <input id="default-btn" type="file" hidden>
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     <div class="btn-box">Upload Back side</div>
+                     <div class="file-container">
+                        <div class="wrapper back">
+                           <div class="image">
+                              <img src="" alt="" id="img2">
+                           </div>
+                           <div class="content">
+                              <div class="icon">
+                                 <i class="fas fa-cloud-upload-alt"></i>
+                              </div>
+                              <div class="text">
+                                 No file chosen, yet!
+                              </div>
+                           </div>
+                           <div id="cancel-btn-back" class="cancel-btn">
+                              <i class="fas fa-times"></i>
+                           </div>
+                           <div class="file-name file-name-back">
+                              File name here
+                           </div>
+                        </div>
+                        <button onclick="defaultBtnActive('img2')" id="custom-btn1" class="cm-btn">Choose a file</button>
+                        <input id="default-btn" type="file" hidden>
+                     </div>
+                  </div>
+               </div>
+
+               
+            </div>
+         </div>
+      </div>
+      
+      <script type="text/javascript" src="custom.js"></script>
+   </body>
+</html>
